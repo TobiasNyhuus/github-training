@@ -1,0 +1,34 @@
+name: Report a practice typo
+description: Practise describing a spelling correction without editing a file.
+title: "[Practice] Report a spelling correction"
+body:
+  - type: markdown
+    attributes:
+      value: "This is a training exercise. An issue reports the problem; it does not change the file. Use the sample text only."
+  - type: dropdown
+    id: file
+    attributes:
+      label: Which file contains the typo?
+      options:
+        - practice.md
+        - demo.md
+    validations:
+      required: true
+  - type: input
+    id: current-word
+    attributes:
+      label: What word is there now?
+    validations:
+      required: true
+  - type: input
+    id: correction
+    attributes:
+      label: What should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Why are you suggesting this correction?
+    validations:
+      required: true

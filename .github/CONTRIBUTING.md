@@ -1,9 +1,7 @@
-# Contributing to the training repository
+# Contributing to this training repository
 
-Follow the exercise in the [README](../README.md). Deliberate mistakes in the starting files give everyone the same small task to practise.
+Follow the numbered exercise in the [README](../README.md). Make your own fork, create a working branch, and propose the correction to **TobiasNyhuus/github-training**, branch **main**. GitHub may initially choose the organisation upstream; check and correct the base repository.
 
-Create your change in a personal fork and open a pull request back to this repository. Give the pull request a title beginning with `[Practice]` or `[Demo]`, and explain the problem and your correction.
+Keep practice pull requests open. Do not merge them or correct the deliberate typos on main. The optional issue form is for practising a problem report; real community suggestions belong in the relevant community repository.
 
-Practice and demonstration pull requests remain open. Please do not merge them or remove the deliberate mistakes from `main` during the training period.
-
-Keep real event suggestions and changes to the group's published resources in their respective repositories. This repository is only for learning the contribution workflow.
+Use the sample text. No personal information is needed. If you need help, tell Tobias your current step through speech or chat.
