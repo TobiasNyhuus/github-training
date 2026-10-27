@@ -10,6 +10,12 @@ Git records changes to files so earlier versions can be compared. GitHub hosts t
 
 This practice hub belongs to **TobiasNyhuus**. It is a fork of the organisation’s original training repository. For this session, send your pull request to **TobiasNyhuus/github-training**, branch **main**.
 
+Short address for this practice hub: [is.gd/nordicpractice](https://is.gd/nordicpractice).
+
+### Why a fork?
+
+Without write access to a repository, you need your own copy to save edits. A fork provides that copy. With write access, you can use a working branch in the shared repository instead. Participants use personal forks for this exercise; Tobias already owns the practice hub.
+
 ## Before you start
 
 - Sign in to your GitHub account. If you need an account, [sign up for GitHub](https://github.com/signup) before the session.
@@ -46,13 +52,17 @@ This practice hub belongs to **TobiasNyhuus**. It is a fork of the organisation�
 
 **Final check:** your pull request should be open and contain only the intended correction. Point to the changed line and explain what you corrected. Check that the base is Tobias's training repository. Has its original file changed yet? **No:** the pull request proposes the change; merging would apply it. Practice pull requests stay open so everyone can use the same starting files. Please do not merge them.
 
-If you cannot find the comparison, open the original training repository, select **Pull requests → New pull request → compare across forks**, and choose the repositories and branches listed in step 7. If GitHub shows an existing pull request for your branch, open it instead of creating another.
+If you cannot find the comparison, open this TobiasNyhuus training hub, select **Pull requests → New pull request → compare across forks**, and choose the repositories and branches listed in step 7. If GitHub shows an existing pull request for your branch, open it instead of creating another.
 
 ## Another way to contribute
 
 An **issue** describes a problem; a **pull request** supplies the proposed file edit. If you want to practise reporting the typo instead, open [Issues → New issue](https://github.com/TobiasNyhuus/github-training/issues/new/choose) and choose **Report a practice typo**. State the file, the current word, and your suggested correction. This is useful contribution practice, but it is not completion of the pull request exercise. Nothing in the file changes just because you submit an issue.
 
 GitHub also offers a shorter editing route: open a file in someone else’s repository and select the pencil. It can offer to create a fork as part of editing. Use the numbered route above during this session so everyone can check the same steps.
+
+## Practise reviewing a change
+
+Open the [ready demonstration: is.gd/nordicdemo](https://is.gd/nordicdemo). Read **Files changed**, then leave a specific observation or question in **Conversation** if you wish. For example: “This removes the extra l; the rest of the sentence stays the same.” Commenting, formally approving and merging are separate actions. You cannot approve your own pull request.
 
 ## Optional second edit
 
@@ -76,6 +86,6 @@ If your fork or working branch already exists, reuse it to continue unfinished w
 
 Use [demo.md](demo.md) and a fresh branch such as `fix-demo-spelling-live`. Correct `usefull` to `useful`, preview, commit and open a pull request with **TobiasNyhuus/github-training:main** as base. You already own this repository, so your demonstration can use a branch here. Participants first make their own fork; show and explain that additional step before demonstrating the edit.
 
-Keep all demonstration and practice pull requests open. Leave both deliberate typos on `main` available to the next participant. Do not sync or merge the organisation’s copy during the workshop. The repository’s **Pull requests** tab contains the ready demonstration when available.
+Keep all demonstration and practice pull requests open. Leave both deliberate typos on `main` available to the next participant. Do not sync or merge the organisation’s copy during the workshop. The [ready demonstration pull request](https://github.com/TobiasNyhuus/github-training/pull/1) is open and contains just the demo correction.
 
 The exercise follows GitHub’s [browser pull request quickstart](https://docs.github.com/en/pull-requests/get-started/pull-request-quickstart) and [file editing instructions](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files). Button wording can vary slightly.
